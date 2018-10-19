@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a08240c-94f2-4cd4-8056-bc665fa2c7b1" name="Default Changelist" comment="" />
+    <list default="true" id="0a08240c-94f2-4cd4-8056-bc665fa2c7b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +71,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1415364846">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -80,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,6 +105,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,9 +123,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-37" />
-    <option name="y" value="57" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -128,12 +145,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +186,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,16 +246,17 @@
       <workItem from="1539798127330" duration="123000" />
       <workItem from="1539799109822" duration="2419000" />
       <workItem from="1539812036257" duration="329000" />
+      <workItem from="1539915752364" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8733000" />
+    <option name="totallyTimeSpent" value="9132000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-37" y="57" width="977" height="1038" extended-state="1" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22137405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22746186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

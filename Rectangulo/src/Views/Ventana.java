@@ -18,7 +18,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
     private int x, y; private double m = 0;
 
     public Ventana() {
-        super("Mi primer linea Bresenham...");
+        super("Mi primer rectangulo..");
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);

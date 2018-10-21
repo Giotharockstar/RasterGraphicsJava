@@ -2,10 +2,10 @@ package Graficos;
 
 import java.awt.*;
 
-public class Linea {
+public class LineaDDA {
     private int pxSize; private Pixel px;
 
-    public Linea(Pixel p){
+    public LineaDDA(Pixel p){
         pxSize = p.SIZE;
         px = p;
     }

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadc66fc-75cf-4e37-9d72-7fb400841b3a" name="Default Changelist" comment="">
+    <list default="true" id="8c355808-f608-473c-b616-196f020dcfb3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/dictionaries/karni.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoPolar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/Pixel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Models/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Views/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graficos/CirculoPolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graficos/CirculoPolar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CirculoPuntoMedio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graficos/CirculoPuntoMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoOcho/src/Graficos/CirculoPolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/src/Graficos/CirculoPolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoOcho/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoPolar/src/Graficos/CirculoPolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/src/Graficos/CirculoPolar.java" afterDir="false" />
     </list>
@@ -23,16 +31,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-780500316">
+    <session id="429361741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.88" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,41 +51,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="388" />
+          <entry key="dummy" value="10" />
+          <entry key="java" value="488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="388" />
+          <entry key="JAVA" value="488" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graficos/CirculoPolar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="24" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -89,8 +76,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Graficos/CirculoBresenham.java" />
+        <option value="$PROJECT_DIR$/src/Graficos/CirculoPuntoMedio.java" />
         <option value="$PROJECT_DIR$/src/Views/Ventana.java" />
-        <option value="$PROJECT_DIR$/src/Graficos/CirculoPolar.java" />
       </list>
     </option>
   </component>
@@ -100,27 +88,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Spelling</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpellCheckingInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,34 +101,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CirculoOcho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CirculoOcho" type="462c0819:PsiDirectoryNode" />
+              <item name="CirculoPuntoMedio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CirculoPuntoMedio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CirculoOcho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CirculoOcho" type="462c0819:PsiDirectoryNode" />
+              <item name="CirculoPuntoMedio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CirculoPuntoMedio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CirculoOcho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CirculoOcho" type="462c0819:PsiDirectoryNode" />
+              <item name="CirculoPuntoMedio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CirculoPuntoMedio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Graficos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CirculoOcho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CirculoOcho" type="462c0819:PsiDirectoryNode" />
+              <item name="CirculoPuntoMedio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CirculoPuntoMedio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CirculoOcho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CirculoOcho" type="462c0819:PsiDirectoryNode" />
+              <item name="CirculoPuntoMedio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CirculoPuntoMedio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -165,15 +135,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540139041212" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540150146154" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CirculoBresenham" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -181,7 +151,7 @@
       <recent name="Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\karni\Desktop\RasterGraphicsJava\CirculoOcho\src" />
+      <recent name="C:\Users\karni\Desktop\RasterGraphicsJava\CirculoPuntoMedio\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,7 +169,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Models.Main" />
-      <module name="CirculoOcho" />
+      <module name="CirculoPuntoMedio" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -217,55 +187,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dadc66fc-75cf-4e37-9d72-7fb400841b3a" name="Default Changelist" comment="" />
-      <created>1540083367444</created>
+      <changelist id="8c355808-f608-473c-b616-196f020dcfb3" name="Default Changelist" comment="" />
+      <created>1540140418082</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540083367444</updated>
-      <workItem from="1540083369224" duration="3582000" />
-      <workItem from="1540088932724" duration="12000" />
-      <workItem from="1540091869124" duration="555000" />
-      <workItem from="1540097171644" duration="521000" />
-      <workItem from="1540136940271" duration="2074000" />
-      <workItem from="1540139620355" duration="610000" />
+      <updated>1540140418082</updated>
+      <workItem from="1540140419455" duration="3664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7354000" />
+    <option name="totallyTimeSpent" value="3664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="782" height="831" extended-state="1" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26869807" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32871014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16068867" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20373027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,24 +239,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graficos/CirculoPolar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graficos/CirculoPuntoMedio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>

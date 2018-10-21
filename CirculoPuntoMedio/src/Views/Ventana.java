@@ -1,6 +1,6 @@
 package Views;
 
-import Graficos.CirculoPolar;
+import Graficos.CirculoPuntoMedio;
 import Graficos.Pixel;
 
 import javax.swing.*;
@@ -8,15 +8,15 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 5);
-    private CirculoPolar cs = new CirculoPolar(px);
+    private Pixel px = new Pixel(this, 1);
+    private CirculoPuntoMedio cs = new CirculoPuntoMedio(px);
     private JPanel area;
     private JLabel status;
     private Image buffer, temporal;
     private int x, y;
 
     public Ventana() {
-        super("Mi primer circulo con espejo de 8 lados..");
+        super("Mi primer circulo polar..");
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);

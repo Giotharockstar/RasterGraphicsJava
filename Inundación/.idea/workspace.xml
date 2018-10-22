@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a4b05c-3d0f-4c2c-8a75-dcf84b1ef78a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graficos/LineaDDA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graficos/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/src/Graficos/LineaDDA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/src/Graficos/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ScanLine/src/Views/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GrosorCirculo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrosorCirculo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanLine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanLine/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="615" />
+          <entry key="java" value="658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="615" />
+          <entry key="JAVA" value="658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -66,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -78,7 +65,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graficos/LineaDDA.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-742">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="261">
+              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2354#2355#0" expanded="true" />
@@ -113,6 +104,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Graficos/LineaDDA.java" />
+        <option value="$PROJECT_DIR$/src/Graficos/Pixel.java" />
         <option value="$PROJECT_DIR$/src/Views/Ventana.java" />
       </list>
     </option>
@@ -177,7 +169,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540237309381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540237950311" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ScanLine" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -226,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540234485893</updated>
-      <workItem from="1540234487351" duration="2692000" />
+      <workItem from="1540234487351" duration="3421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2692000" />
+    <option name="totallyTimeSpent" value="3421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -251,7 +244,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32855093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32855093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,26 +274,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Graficos/Rectangulo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graficos/Rectangulo.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graficos/LineaDDA.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="261">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2354#2355#0" expanded="true" />

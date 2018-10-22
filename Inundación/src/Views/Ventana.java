@@ -71,10 +71,8 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
     private void floodFill(int x, int y, Color c) {
         if (buffer.getRGB(x,y) == -1){
             px.drawPx(x,y,c);
-            floodFill(x+1,y,c);
-            floodFill(x-1,y,c);
-            floodFill(x,y-1,c);
-            floodFill(x,+1,c);
+            floodFill(x+1, y+1,c);
+            floodFill(x+1, y-1,c);
         }
     }
 

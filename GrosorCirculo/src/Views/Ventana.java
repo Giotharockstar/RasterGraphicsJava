@@ -1,22 +1,23 @@
 package Views;
 
-import Graficos.LineaDDA;
+import Graficos.CirculoBresenham;
 import Graficos.Pixel;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 10);
-    private LineaDDA ln = new LineaDDA(px);
+public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener, KeyListener{
+    private Pixel px = new Pixel(this);
+    private CirculoBresenham cs = new CirculoBresenham(px);
     private JPanel area;
     private JLabel status;
     private Image buffer, temporal;
-    private int x, y; private double m = 0;
+    private int x, y;
 
     public Ventana() {
-        super("Mi primer linea Incremental...");
+        super("Mi primer circulo polar..");
+        addKeyListener(this);
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);
@@ -51,7 +52,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        ln.drawLinea(x,y,e.getX(),e.getY(),Color.BLUE);
+        cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
     }
 
     @Override
@@ -66,14 +67,21 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        m = (double) (e.getY()-y) / (e.getX()-x);
-        ln.drawLinea(x,y,e.getX(),e.getY(),Color.BLUE);
+        cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
         area.getGraphics().drawImage(temporal, 0, 0, this);
-        ln.drawLinea(x,y,e.getX(),e.getY(),Color.BLUE);
+        cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        status.setText("x=" + e.getX() + ",y=" + e.getY() + ", m= " + m);
+        status.setText("x=" + e.getX() + ",y=" + e.getY());
     }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        px.setS(e.getKeyChar());
+    }
+
+    public void keyPressed(KeyEvent e) { }
+    public void keyReleased(KeyEvent e) { }
 }

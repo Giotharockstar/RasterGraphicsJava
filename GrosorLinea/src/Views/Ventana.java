@@ -7,8 +7,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 10);
+public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener, KeyListener {
+    private Pixel px = new Pixel(this);
     private LineaDDA ln = new LineaDDA(px);
     private JPanel area;
     private JLabel status;
@@ -17,6 +17,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
 
     public Ventana() {
         super("Mi primer linea Incremental...");
+        addKeyListener(this);
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);
@@ -76,4 +77,12 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
     public void mouseMoved(MouseEvent e) {
         status.setText("x=" + e.getX() + ",y=" + e.getY() + ", m= " + m);
     }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        px.setS(e.getKeyChar());
+    }
+
+    public void keyPressed(KeyEvent e) { }
+    public void keyReleased(KeyEvent e) { }
 }

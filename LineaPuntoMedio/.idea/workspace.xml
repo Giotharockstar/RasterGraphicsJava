@@ -2,41 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f870e77-5df8-46cf-b591-d56f4f05d0c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/dictionaries/karni.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Views/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/CirculoPuntoMedio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Graficos/CirculoPuntoMedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Views/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/CirculoPuntoMedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/ElipseBresenham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Figuras/src/Views/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Rectangulo/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Figuras/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/MascaraCirculo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/src/Graficos/CirculoPuntoMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraCirculo/src/Views/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/src/Graficos/MaskedLineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MascaraLinea/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoBresenham/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoCartesiano/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoCartesiano/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoOcho/src/Graficos/CirculoPolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/src/Graficos/CirculoPolar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoOcho/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoPolar/src/Graficos/CirculoPolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/src/Graficos/CirculoPolar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rectangulo/src/Graficos/Linea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/LineaDDA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rectangulo/src/Graficos/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/src/Graficos/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rectangulo/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPolar/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Graficos/CirculoPuntoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Graficos/CirculoPuntoMedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Graficos/CirculoPuntoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/CirculoBresenham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Graficos/LineaPuntoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/LineaPuntoMedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Graficos/Pixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/src/Graficos/Pixel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaDDA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaDDA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaDDA/src/Graficos/Linea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaDDA/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaDDA/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaDDA/src/Views/Ventana.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,10 +99,10 @@
     <session id="-1811802390">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -110,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graficos/LineaPuntoMedio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -149,7 +151,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -176,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +213,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,16 +271,18 @@
       <workItem from="1539804870070" duration="2567000" />
       <workItem from="1540150228801" duration="16000" />
       <workItem from="1540151443201" duration="8000" />
+      <workItem from="1540190280038" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2591000" />
+    <option name="totallyTimeSpent" value="2624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23439667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24133149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graficos/LineaPuntoMedio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>

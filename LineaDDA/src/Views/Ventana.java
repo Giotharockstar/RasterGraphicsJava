@@ -1,6 +1,6 @@
 package Views;
 
-import Graficos.Linea;
+import Graficos.LineaDDA;
 import Graficos.Pixel;
 
 import javax.swing.*;
@@ -9,7 +9,7 @@ import java.awt.event.*;
 
 public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
     private Pixel px = new Pixel(this, 1);
-    private Linea ln = new Linea(px);
+    private LineaDDA ln = new LineaDDA(px);
     private JPanel area;
     private JLabel status;
     private Image buffer, temporal;

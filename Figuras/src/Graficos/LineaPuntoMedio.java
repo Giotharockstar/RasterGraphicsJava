@@ -3,9 +3,10 @@ package Graficos;
 import java.awt.*;
 
 public class LineaPuntoMedio {
-    private Pixel px;
+    private int pxSize; private Pixel px;
 
     public LineaPuntoMedio(Pixel p){
+        pxSize = p.SIZE;
         px = p;
     }
 
@@ -22,7 +23,9 @@ public class LineaPuntoMedio {
                 } else {
                     pk += b;
                 }
-                px.drawPx((int) x, (int) y, c);
+                if (y % pxSize == 0){
+                    px.drawPx((int) x, (int) y, c);
+                }
             }
         } else {
             if(x1 < x2) { xi = x1; xf = x2; y = y1; } else { xi = x2; xf = x1; y = y2; }
@@ -33,7 +36,9 @@ public class LineaPuntoMedio {
                 } else {
                     pk += b;
                 }
-                px.drawPx((int) x, (int) y, c);
+                if (x % pxSize == 0){
+                    px.drawPx((int) x, (int) y, c);
+                }
             }
         }
         px.drawPx(x1,y1, Color.GREEN);

@@ -12,7 +12,7 @@ public class CirculoBresenham {
 
     public void drawCirculo(int x1, int y1, int x2, int y2, Color c){
         double r = Math.sqrt(Math.pow((x1-x2),2)+Math.pow((y1-y2),2));
-        double x = 0, y = r, delta = 2 - (2 * r), e; pxIniciales((int) r,x1,0,y1,c); size = 0;
+        double x = 0, y = r, delta = 2 - (2 * r), e; pxIniciales((int) r,x1, y1,c); size = 0;
         while (y >= 0) {
             paintPixels(x,y,x1,y1,c);
             e = 2 * (delta + y) - 1;
@@ -43,10 +43,10 @@ public class CirculoBresenham {
         }
     }
 
-    private void pxIniciales(int x, int x1, int y, int y1, Color c){
-        px.drawPx( x + x1 + 2, y + y1, c);
-        px.drawPx( -x + x1 - 2, y + y1, c);
-        px.drawPx( y + x1, x + y1, c);
-        px.drawPx( y + x1, -x + y1, c);
+    private void pxIniciales(int x, int x1, int y1, Color c){
+        px.drawPx( x + x1 + 1, y1, c);
+        px.drawPx( -x + x1 - 1, y1, c);
+        px.drawPx(x1, x + y1, c);
+        px.drawPx(x1, -x + y1, c);
     }
 }

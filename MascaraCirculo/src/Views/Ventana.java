@@ -1,6 +1,6 @@
 package Views;
 
-import Graficos.CirculoCartesiano;
+import Graficos.CirculoPuntoMedio;
 import Graficos.Pixel;
 
 import javax.swing.*;
@@ -8,15 +8,16 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 5);
-    private CirculoCartesiano cs = new CirculoCartesiano(px);
+    private Pixel px = new Pixel(this, 2);
+    private int[] mask = {1,0,1,1,0,0};
+    private CirculoPuntoMedio cs = new CirculoPuntoMedio(px,mask);
     private JPanel area;
     private JLabel status;
     private Image buffer, temporal;
-    private int x, y;
+    private int x, y; private double m = 0;
 
     public Ventana() {
-        super("Mi primer circulo cartesiano...");
+        super("Mi primer ciruclo con máscara...");
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);
@@ -66,6 +67,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
 
     @Override
     public void mouseDragged(MouseEvent e) {
+        m = (double) (e.getY()-y) / (e.getX()-x);
         cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
         area.getGraphics().drawImage(temporal, 0, 0, this);
         cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
@@ -73,6 +75,6 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        status.setText("x=" + e.getX() + ",y=" + e.getY());
+        status.setText("x=" + e.getX() + ",y=" + e.getY() + ", m= " + m);
     }
 }

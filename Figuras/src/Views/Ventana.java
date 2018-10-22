@@ -7,10 +7,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Ventana extends JFrame {
-    private Pixel px = new Pixel(this, 5);
+    private Pixel px = new Pixel(this, 3);
     private LineaPuntoMedio ln = new LineaPuntoMedio(px);
     private Rectangulo rc = new Rectangulo(px);
-    private CirculoPuntoMedio cs = new CirculoPuntoMedio(px);
+    private CirculoBresenham cs = new CirculoBresenham(px);
     private ElipseBresenham ep = new ElipseBresenham(px);
 
     public Ventana() {

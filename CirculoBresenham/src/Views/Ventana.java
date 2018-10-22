@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 1);
+    private Pixel px = new Pixel(this, 5);
     private CirculoBresenham cs = new CirculoBresenham(px);
     private JPanel area;
     private JLabel status;

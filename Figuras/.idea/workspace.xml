@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866e2afc-4e40-4370-840e-a85a8b2501a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/CirculoBresenham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Views/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPuntoMedio/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrosorCirculo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrosorCirculo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrosorLinea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrosorLinea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inundación/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inundación/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LineaDDA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaDDA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaPuntoMedio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaPuntoMedio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaPuntoMedio/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaPuntoMedio/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MascaraCirculo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MascaraCirculo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MascaraLinea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MascaraLinea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanLine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanLine/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +47,10 @@
     <session id="-1591366379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -134,9 +166,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -146,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,15 +214,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540191321911" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LineaDDA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GrosorCirculo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -243,16 +275,17 @@
       <workItem from="1540178574775" duration="473000" />
       <workItem from="1540190190560" duration="1130000" />
       <workItem from="1540191735311" duration="105000" />
+      <workItem from="1540252290128" duration="433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6114000" />
+    <option name="totallyTimeSpent" value="6547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="0" width="782" height="831" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3509015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36149585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -261,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.121985815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12177651" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

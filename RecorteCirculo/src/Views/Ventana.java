@@ -1,22 +1,26 @@
 package Views;
 
-import Graficos.CirculoPuntoMedio;
+import Graficos.CirculoBresenham;
+import Graficos.LineaDDA;
 import Graficos.Pixel;
+import Graficos.Rectangulo;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class Ventana extends JFrame implements ActionListener, MouseListener, MouseMotionListener {
-    private Pixel px = new Pixel(this, 1);
-    private CirculoPuntoMedio cs = new CirculoPuntoMedio(px);
+    private Pixel px = new Pixel(this, 3);
+    private LineaDDA ln = new LineaDDA(px);
+    private Rectangulo rc = new Rectangulo(ln);
+    private CirculoBresenham cs = new CirculoBresenham(px);
     private JPanel area;
     private JLabel status;
-    private Image buffer, temporal;
+    private Image buffer;
     private int x, y;
 
     public Ventana() {
-        super("Mi primer circulo polar..");
+        super("Mi primer rectangulo..");
         area = new JPanel();
         area.addMouseListener(this);
         area.addMouseMotionListener(this);
@@ -28,6 +32,11 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
         setVisible(true);
         addWindowListener(new WindowAdapter(){public void windowClosing(WindowEvent we){System.exit(0);}});
         buffer = area.createImage(area.getWidth(),area.getHeight());
+    }
+
+    @Override
+    public void paint(Graphics g) {
+        rc.drawRectangulo(100,100,300,300, Color.RED);
     }
 
     public void info() {
@@ -45,7 +54,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
     public void mousePressed(MouseEvent e) {
         x = e.getX();
         y = e.getY();
-        temporal = area.createImage(area.getWidth(), area.getHeight());
+        Image temporal = area.createImage(area.getWidth(), area.getHeight());
         temporal.getGraphics().drawImage(buffer, 0, 0, this);
     }
 
@@ -65,11 +74,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Mo
     }
 
     @Override
-    public void mouseDragged(MouseEvent e) {
-        cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
-        area.getGraphics().drawImage(temporal, 0, 0, this);
-        cs.drawCirculo(x,y,e.getX(),e.getY(),Color.BLUE);
-    }
+    public void mouseDragged(MouseEvent e) { }
 
     @Override
     public void mouseMoved(MouseEvent e) {

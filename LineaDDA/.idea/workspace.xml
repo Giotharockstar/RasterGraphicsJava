@@ -2,24 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a08240c-94f2-4cd4-8056-bc665fa2c7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/GrosorCirculo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/src/Graficos/CirculoBresenham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorCirculo/src/Views/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/src/Graficos/LineaDDA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/src/Graficos/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/src/Models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrosorLinea/src/Views/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/CirculoBresenham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Graficos/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteCirculo/src/Views/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/LineaDDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Graficos/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecorteLinea/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoBresenham/src/Graficos/CirculoBresenham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoCartesiano/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoOcho/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CirculoPolar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inundación/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inundación/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaBresenham/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaBresenham/src/Views/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaPuntoMedio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaPuntoMedio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LineaPuntoMedio/src/Views/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LineaPuntoMedio/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Rectangulo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,23 +95,23 @@
     <session id="1415364846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="13" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="20" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -121,16 +129,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graficos/LineaDDA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="181">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -161,8 +169,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Graficos/Linea.java" />
         <option value="$PROJECT_DIR$/src/Views/Ventana.java" />
-        <option value="$PROJECT_DIR$/src/Graficos/LineaDDA.java" />
         <option value="$PROJECT_DIR$/src/Graficos/Pixel.java" />
+        <option value="$PROJECT_DIR$/src/Graficos/LineaDDA.java" />
       </list>
     </option>
   </component>
@@ -173,9 +181,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -200,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,14 +244,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540193264050" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CirculoCartesiano" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -302,17 +310,17 @@
       <workItem from="1540192402322" duration="218000" />
       <workItem from="1540193186553" duration="95000" />
       <workItem from="1540195193781" duration="35000" />
+      <workItem from="1540251805951" duration="386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9599000" />
+    <option name="totallyTimeSpent" value="9985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12885906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13020134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,17 +375,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graficos/LineaDDA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graficos/Pixel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graficos/LineaDDA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
